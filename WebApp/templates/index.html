@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta name="description" content="" />
+        <meta name="author" content="Webpixels" />
+        <title>Solar Cell Crack Detector</title>
+        <!-- Preloader -->
+        <style>
+            .avatar-pic {
+                width: 150px;
+            }
+            @keyframes hidePreloader {
+                0% {
+                    width: 100%;
+                    height: 100%;
+                }
+
+                100% {
+                    width: 0;
+                    height: 0;
+                }
+            }
+
+            body > div.preloader {
+                position: fixed;
+                background: white;
+                width: 100%;
+                height: 100%;
+                z-index: 1071;
+                opacity: 0;
+                transition: opacity 0.5s ease;
+                overflow: hidden;
+                pointer-events: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            body:not(.loaded) > div.preloader {
+                opacity: 1;
+            }
+
+            body:not(.loaded) {
+                overflow: hidden;
+            }
+
+            body.loaded > div.preloader {
+                animation: hidePreloader 0.5s linear 0.5s forwards;
+            }
+        </style>
+        <script>
+            window.addEventListener("load", function () {
+                setTimeout(function () {
+                    document.querySelector("body").classList.add("loaded");
+                }, 300);
+            });
+        </script>
+        <!-- Favicon -->
+        <link rel="icon" href="assets/img/brand/x-ray.png" type="image/png" />
+        <!-- Font Awesome -->
+        <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
+        <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+        <link
+            rel="stylesheet"
+            href = "{{ url_for('static',filename='libs/@fortawesome/fontawesome-free/css/all.min.css') }}"
+            <!-- href="assets/libs/@fortawesome/fontawesome-free/css/all.min.css" -->
+
+            
+        <!-- /> -->
+        <!-- Quick CSS -->
+        <link
+            rel="stylesheet"
+            href = "{{ url_for('static',filename='css/quick-website.css') }}"
+            <!-- href="assets/css/quick-website.css" -->
+            <!-- id="stylesheet" -->
+        <!-- /> -->
+    </head>
+
+    <body>
+        <!-- Preloader -->
+        <div class="preloader">
+            <div class="spinner-border text-primary" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <!-- Brand -->
+                <a class="navbar-brand">
+                    <span
+                        style="
+                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+                                sans-serif;
+                        "
+                        >Solar</span
+                    ><span style="font-family: Verdana, Geneva, Tahoma, sans-serif"
+                        > Cell</span
+                    >
+                </a>
+            </div>
+        </nav>
+        <!-- Main content -->
+        <section>
+            <div class="container">
+                <div class="row row-grid align-items-center">
+                    <div class="col-12 col-md-5 col-lg-6 order-md-2 text-center">
+                        <!-- Image -->
+                        <figure class="w-100">
+                            <img
+                                alt="Image placeholder"
+                                src="static/img/placeholder.jpeg"
+                                class="img-fluid mw-md-120"
+                            />
+                        </figure>
+                    </div>
+                    <div class="col-12 col-md-7 col-lg-6 order-md-1 pr-md-5">
+                        <!-- Heading -->
+                        <h1 class="display-4 text-center text-md-left mb-3">
+                            <strong class="text-primary">Solar Cell</strong> Crack Detector
+                        </h1>
+                        <!-- Text -->
+                        <p class="lead text-center text-md-left text-muted">
+                            Description
+                        </p>
+                        <!-- Buttons -->
+                        <div class="text-center text-md-left mt-5">
+                            <a href="#" class="btn btn-primary btn-icon" target="_blank">
+                                <span class="btn-inner--text">Get started</span>
+                                <span class="btn-inner--icon"
+                                    ><i data-feather="chevron-right"></i
+                                ></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slice slice-lg pt-lg-6 pb-0 pb-lg-6 bg-section-secondary">
+           <div class="container">
+               <div class="row">
+                <div class="col">
+                    <row>
+                        
+                        
+                        <row>
+                        <container style="margin-left: 50px;
+                        /* margin-bottom: 10px; */
+                        width: 350px;
+                        height: 10;
+                        display: flex;
+                        
+                        justify-content: center;">
+                        <!-- <p class="lead text-center text-md-left text-muted">
+                            Prediction
+                        </p> -->
+                        <h1 class="display-4 text-center text-md-left mb-3">
+                                Prediction
+                        </h1>
+                        <br>
+                        
+                        </container>
+                        </row>
+                        
+                        <row>
+                            <container style="margin-left: 50px;
+                            /* margin-bottom: 10px; */
+                            width: 350px;
+                            height: 10;
+                            display: flex;
+                            
+                            justify-content: center;">
+                                <p class="lead text-center text-md-left text-muted">
+                                    {{prediction}}
+                                </p>
+                            </container>
+                        </row>
+                        <row>
+                            <container style="margin-left: 50px;
+                            /* margin-bottom: 10px; */
+                            width: 350px;
+                            height: 10;
+                            display: flex;
+                            
+                            justify-content: center;">
+                                <p class="lead text-center text-md-left text-muted">
+                                    {{probability}}
+                                </p>
+                            </container>
+                        </row>
+                    </row>
+                    <row>
+                        <container style="margin-left: 50px;
+                        margin-top:10px;
+                        width: 350px;
+                        height: 300px;
+                        display: flex;
+                        
+                        justify-content: center;">
+                        
+                        
+                            <img alt="" src="static/processed_images/og.png" 
+                                    style="height: 300px"  id="imgClickAndChange" />
+                        
+                        
+                        </container>
+                        <script>function changeImage() {
+                            
+                            if (document.getElementById("flexSwitchCheckChecked").checked){
+                                document.getElementById("imgClickAndChange").src = "static/processed_images/heatmap.png";
+                            } else {
+                                document.getElementById("imgClickAndChange").src = "static/processed_images/og.png";
+                            }
+                            }
+                        </script>
+                    </row>
+                    <row>
+                        <container style="margin-left: 50px;
+                        margin-top: 10px;
+                        width: 350px;
+                        height: 30px;
+                        display: flex;
+                        
+                        justify-content: center;">
+                        <div class="form-check form-switch" style="
+                                            height: 50px;">
+                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" onclick="changeImage()">
+                                    
+                                    
+                                    
+                                                <label class="form-check-label" for="flexSwitchCheckChecked" >View CAM</label>
+                    </div>
+                        </container>
+                        </row>
+                </div>
+                <div class="col">
+                    <row>
+                        <container style="margin-left: 50px;
+                        margin-top: 20%;
+                        height: 50px;
+                        display: flex;
+                        /* border: 5px solid red; */
+                        justify-content: center;">
+                                <span>
+          
+                                    <form enctype = "multipart/form-data" onsubmit=" return false;" >
+                                      <input id="file" type="file" name="static_file" multiple/>
+                                      <button class="btn btn-primary btn-sm d-none d-sm-inline-block"  id="upload-button" onclick="uploadFile(this.form)"> Upload </button>
+                                      </form>
+                                   
+                                    <script type="text/javascript" src="/static/app.js"></script>
+                                    </script>
+        
+                                  </span>
+
+                        </container>
+                    </row>
+                    <row>
+                        <container style="margin-left: 50px;
+                        margin-top: 50px;
+                        /* width: 350px; */
+                        height: 30px;
+                        display: flex;
+                        /* border: 5px solid red; */
+                        justify-content: center;">
+                        <span>
+                                <a href="{{ url_for('static',filename='outputData.json') }}" download>
+                                    <button class="btn btn-primary btn-icon" name="foox" value="1">
+                                        &nbsp;Process & download
+                                    </button>
+                                </a>
+                        </span>
+                        </container>
+                    </row>
+                    <row>
+                        <container style="margin-left: 50px;
+                        margin-top: 50px;
+                        
+                        height: 30px;
+                        display: flex;
+                        /* border: 5px solid red; */
+                        justify-content: center;">
+                        <span>
+                        <form action="" method="post">
+                            <button class="btn btn-primary btn-icon" name="foox" value="1">Update Image</button>
+                        </span>
+                        </container>
+                    </row>
+                </div>
+               </div>
+           </div>
+
+        </section>
+        <!-- Core JS  -->
+        <script src="static/assets/libs/jquery/dist/jquery.min.js"></script>
+        <script src="static/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="static/assets/libs/svg-injector/dist/svg-injector.min.js"></script>
+        <script src="static/assets/libs/feather-icons/dist/feather.min.js"></script>
+        <!-- Quick JS -->
+        <script src="static/assets/js/quick-website.js"></script>
+        <!-- Feather Icons -->
+        <script>
+            feather.replace({
+                width: "1em",
+                height: "1em",
+            });
+        </script>
+
+       
+		<script>
+            btnUpload.addEventListener("click", function () {
+                const xhr = new XMLHttpRequest();
+                const formData = new FormData();
+
+                for (const file of inpFile.files) {
+                    formData.append("myFiles", file);
+                }
+
+                xhr.open("post", "http://127.0.0.1:5000/");
+
+                xhr.send(formData);
+            });
+        </script>
+
+
+    </body>
+</html>
