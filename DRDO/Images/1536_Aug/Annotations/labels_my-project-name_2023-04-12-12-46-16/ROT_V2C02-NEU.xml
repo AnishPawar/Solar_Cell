@@ -1,0 +1,37 @@
+<annotation>
+	<folder>my-project-name</folder>
+	<filename>ROT_V2C02-NEU.png</filename>
+	<path>/my-project-name/ROT_V2C02-NEU.png</path>
+	<source>
+		<database>Unspecified</database>
+	</source>
+	<size>
+		<width>1536</width>
+		<height>1536</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>Crack</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>888</xmin>
+			<ymin>1178</ymin>
+			<xmax>1083</xmax>
+			<ymax>1470</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Crack</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>759</xmin>
+			<ymin>295</ymin>
+			<xmax>1218</xmax>
+			<ymax>1330</ymax>
+		</bndbox>
+	</object>
+</annotation>

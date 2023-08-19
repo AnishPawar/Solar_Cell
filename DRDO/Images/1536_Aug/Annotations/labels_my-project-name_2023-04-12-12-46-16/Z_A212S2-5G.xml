@@ -1,0 +1,25 @@
+<annotation>
+	<folder>my-project-name</folder>
+	<filename>Z_A212S2-5G.png</filename>
+	<path>/my-project-name/Z_A212S2-5G.png</path>
+	<source>
+		<database>Unspecified</database>
+	</source>
+	<size>
+		<width>1536</width>
+		<height>1536</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>Crack</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>639</xmin>
+			<ymin>1215</ymin>
+			<xmax>1281</xmax>
+			<ymax>1536</ymax>
+		</bndbox>
+	</object>
+</annotation>

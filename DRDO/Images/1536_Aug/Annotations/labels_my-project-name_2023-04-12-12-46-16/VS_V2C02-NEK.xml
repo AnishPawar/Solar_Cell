@@ -1,0 +1,37 @@
+<annotation>
+	<folder>my-project-name</folder>
+	<filename>VS_V2C02-NEK.png</filename>
+	<path>/my-project-name/VS_V2C02-NEK.png</path>
+	<source>
+		<database>Unspecified</database>
+	</source>
+	<size>
+		<width>1536</width>
+		<height>1536</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>Crack</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>444</xmin>
+			<ymin>86</ymin>
+			<xmax>596</xmax>
+			<ymax>1146</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Crack</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>645</xmin>
+			<ymin>0</ymin>
+			<xmax>736</xmax>
+			<ymax>258</ymax>
+		</bndbox>
+	</object>
+</annotation>

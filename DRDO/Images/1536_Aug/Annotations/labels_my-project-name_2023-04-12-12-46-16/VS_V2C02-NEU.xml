@@ -1,0 +1,37 @@
+<annotation>
+	<folder>my-project-name</folder>
+	<filename>VS_V2C02-NEU.png</filename>
+	<path>/my-project-name/VS_V2C02-NEU.png</path>
+	<source>
+		<database>Unspecified</database>
+	</source>
+	<size>
+		<width>1536</width>
+		<height>1536</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>Crack</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>705</xmin>
+			<ymin>688</ymin>
+			<xmax>808</xmax>
+			<ymax>1536</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Crack</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>920</xmin>
+			<ymin>3</ymin>
+			<xmax>997</xmax>
+			<ymax>504</ymax>
+		</bndbox>
+	</object>
+</annotation>
